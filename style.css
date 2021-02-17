@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background-color: #ccf2f4;
+}
+
+/*          ****  navbar    ****      */
+nav {
+  background-color: #b34180;
+  text-align: center;
+}
+
+h1 {
+  color: #161d6f;
+  margin: 10px auto;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 40px;
+  position: relative;
+  top: 3px;
+}
+.food {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 10px;
+  right: 5px;
+}
+.brand-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: solid 2px grey;
+  margin: 4px;
+  background-color: #a1cae2;
+  border-radius: 10px;
+  z-index: 10;
+}
+article {
+  padding: 7px;
+}
+
+.heading-3 {
+  color: #b34180;
+
+  font-family: "Cormorant Garamond", serif;
+  position: relative;
+}
+
+/*    icon colors       */
+.fa-bacon {
+  color: #86604f;
+}
+.fa-drumstick-bite {
+  color: #a3080c;
+}
+.fa-stroopwafel {
+  color: #ffa631;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    height: auto;
+  }
+  .nav-link:hover {
+    position: relative;
+    left: 7px;
+    transition: position 0.7s ease-out;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    position: relative;
+    right: 50px;
+  }
+  .beef {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  li {
+    border-radius: 3px;
+  }
+
+  nav {
+    height: 56px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    position: relative;
+    right: 50px;
+  }
+  .beef {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  li {
+    border-radius: 3px;
+  }
+  nav {
+    height: 56px;
+  }
+}
+
+.list-group-item-primary:hover {
+  background-color: #bacbe6;
+
+  transition: background-color 0.5 ease-out;
+}
+
+.list-group-item-secondary:hover {
+  background-color: #cbccce;
+
+  transition: background-color 0.5 ease-out;
+}
+
+.list-group-item-success:hover {
+  background-color: #bcd0c7;
+
+  transition: background-color 0.5 ease-out;
+}
